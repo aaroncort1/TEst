@@ -1,5 +1,5 @@
 # Listen on port 3128
-http_port 3128
+http_port ${PORT}
 
 # Allow access from all IPs (for testing purposes)
 http_access allow all
